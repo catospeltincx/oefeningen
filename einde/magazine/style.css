@@ -1,0 +1,19 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 25px 400px;
+  grid-gap: 15px;
+}
+
+.item {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.i6,
+.i7,
+.i13,
+.i14 {
+  background-color: red;
+}
