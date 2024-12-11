@@ -1,0 +1,93 @@
+/* body */
+body {
+  background-color: #c8fdfa;
+  color: rgb(2, 0, 95);
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Serif";
+}
+
+h1 {
+  text-align: center;
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Noto Serif";
+  font-size: 20px;
+}
+
+mark {
+  background-color: rgba(222, 192, 255, 0.538);
+}
+
+/* header */
+
+/* main */
+/* img-wrap */
+img {
+  height: 350px;
+  width: auto;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+}
+
+.post-img-wrap {
+  display: flex;
+  overflow-x: scroll;
+  cursor: ew-resize;
+}
+
+.post-text-wrap {
+  position: relative;
+}
+
+.hartje {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 0;
+}
+
+.hartje {
+  color: red;
+  font-size: 45px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.hartje:hover {
+  text-shadow: 2px 2px 25px red;
+}
+
+/* hide the scrollbar */
+/* hide for Chrome - Safari - Opera */
+.post-img-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+/* hide for IE, Edge and Firefox */
+.post-img-wrap {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+hr {
+  color: #a3a7e4;
+}
+
+/* footer */
+footer p {
+  color: #a3a7e4;
+}
