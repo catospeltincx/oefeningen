@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(197, 35, 35);
+  color: rgb(255, 255, 255);
+  cursor: url("assets/flower_1.png"), pointer;
+}
+
+p {
+  text-align: center;
+  font-size: 105px;
+  font-family: nunito;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+  line-height: fit-content;
+}
+
+p:hover {
+  color: blue;
+  /* cursor: pointer; */
+}

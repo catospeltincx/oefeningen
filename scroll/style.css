@@ -1,6 +1,11 @@
 /* body */
 body {
-  background-color: #c8fdfa;
+  /* background-color: #c8fdfa; */
+  background: linear-gradient(
+    180deg,
+    rgba(170, 101, 0, 1) 0%,
+    rgba(255, 0, 226, 0) 100%
+  );
   color: rgb(2, 0, 95);
   display: block;
   width: 500px;
@@ -8,30 +13,15 @@ body {
   margin-right: auto;
 }
 
-p {
-  padding: 0;
-  margin: 0;
-  font-family: "Noto Serif";
-}
+/* header */
 
+/* main */
 h1 {
   text-align: center;
   font-family: "Kosugi Maru", sans-serif;
   font-weight: 400;
 }
 
-h2 {
-  font-family: "Noto Serif";
-  font-size: 20px;
-}
-
-mark {
-  background-color: rgba(222, 192, 255, 0.538);
-}
-
-/* header */
-
-/* main */
 /* img-wrap */
 img {
   height: 350px;
@@ -48,6 +38,20 @@ main {
   overflow-x: scroll;
   cursor: ew-resize;
 }
+
+/* hide the scrollbar */
+/* hide for Chrome - Safari - Opera */
+.post-img-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+/* hide for IE, Edge and Firefox */
+.post-img-wrap {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* text-wrap */
 
 .post-text-wrap {
   position: relative;
@@ -71,16 +75,19 @@ main {
   text-shadow: 2px 2px 25px red;
 }
 
-/* hide the scrollbar */
-/* hide for Chrome - Safari - Opera */
-.post-img-wrap::-webkit-scrollbar {
-  display: none;
+p {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Serif";
 }
 
-/* hide for IE, Edge and Firefox */
-.post-img-wrap {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+h2 {
+  font-family: "Noto Serif";
+  font-size: 20px;
+}
+
+mark {
+  background-color: rgba(222, 192, 255, 0.538);
 }
 
 hr {
